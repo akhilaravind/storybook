@@ -1,0 +1,21 @@
+.checkbox-element-label,
+.checkbox-element-option-label {
+    border: none !important;
+    padding-left: 0px !important;
+}
+
+.checkbox-element-option-label {
+    position: relative;
+    top: -5px;
+    font-weight: 500 !important;
+}
+
+.checkbox-element {
+    margin: 5px 0px;
+}
+
+input[type=checkbox] {
+    cursor: pointer;
+    width: 17px;
+    height: 17px;
+}

@@ -1,0 +1,840 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Breadcrumb Breadcrumbs 1`] = `
+<div>
+  <div
+    className="ui segment breadcrumbs-segment"
+  >
+    <div
+      className="ui stackable grid"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="sixteen wide column"
+        >
+          <h2>
+            Prescription
+          </h2>
+          <div
+            className="ui breadcrumb"
+          >
+            <div
+              className="section"
+              onClick={[Function]}
+            >
+              <a
+                href="/"
+                onClick={[Function]}
+              >
+                home
+              </a>
+            </div>
+            <div
+              className="divider"
+            >
+              /
+            </div>
+            <div
+              className="section"
+              onClick={[Function]}
+            >
+              <a
+                href="/prescription/list"
+                onClick={[Function]}
+              >
+                prescriptions
+              </a>
+            </div>
+            <div
+              className="divider"
+            >
+              /
+            </div>
+            <div
+              className="section"
+              onClick={[Function]}
+            >
+              <span>
+                detail
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Breadcrumb Breadcrumbs With Back 1`] = `
+<div>
+  <div
+    className="ui segment breadcrumbs-segment"
+  >
+    <div
+      className="ui stackable grid"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="sixteen wide column"
+        >
+          <h2>
+            Prescription
+          </h2>
+          <div
+            className="ui breadcrumb"
+          >
+            <div
+              className="section"
+              onClick={[Function]}
+            >
+              <a
+                href="/"
+                onClick={[Function]}
+              >
+                home
+              </a>
+            </div>
+            <div
+              className="divider"
+            >
+              /
+            </div>
+            <div
+              className="section"
+              onClick={[Function]}
+            >
+              <a
+                href="/prescription/list"
+                onClick={[Function]}
+              >
+                prescriptions
+              </a>
+            </div>
+            <div
+              className="divider"
+            >
+              /
+            </div>
+            <div
+              className="section"
+              onClick={[Function]}
+            >
+              <span>
+                detail
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Button Basic Button 1`] = `
+<button
+  className="ui basic button"
+  onClick={[Function]}
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Button Button Verying Size 1`] = `
+<button
+  className="ui massive button"
+  onClick={[Function]}
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots Button Button With Icon 1`] = `
+<div
+  className="ui left labeled button"
+  onClick={[Function]}
+>
+  <div
+    className="ui right pointing basic label"
+    onClick={[Function]}
+  >
+    Button
+  </div>
+  <button
+    className="ui icon button"
+    tabIndex={0}
+  >
+    <i
+      aria-hidden="true"
+      className="home icon"
+      onClick={[Function]}
+    />
+     
+  </button>
+</div>
+`;
+
+exports[`Storyshots Card Card 1`] = `
+<div
+  className="ui fluid card"
+  onClick={[Function]}
+>
+  <div
+    className="content"
+  >
+    <img
+      className="ui mini left floated image"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm-Adw_uLOqGFlqtiCspJiZBQ8FTH7jG6c5pcis-sUq5Z-aTcu&amp;s"
+    />
+    <div
+      className="header"
+    >
+      John Smith
+    </div>
+    <div
+      className="meta"
+    >
+      john.smith@gmail.com
+    </div>
+    <div
+      className="meta"
+    >
+      +919895098950
+    </div>
+    <div
+      className="meta"
+    >
+      <p>
+        Config: 
+        Config
+      </p>
+      <p>
+        i18n: 
+        general.profile
+      </p>
+      <p>
+        helper: 
+        helper config
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Pagination Pagination 1`] = `
+<div
+  aria-label="Pagination Navigation"
+  className="ui large pagination menu"
+  role="navigation"
+>
+  <a
+    aria-current={false}
+    aria-disabled={false}
+    className="item"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    tabIndex={0}
+    type="prevItem"
+    value={2}
+  >
+    Previous
+  </a>
+  <a
+    aria-current={false}
+    aria-disabled={false}
+    className="item"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    tabIndex={0}
+    type="pageItem"
+    value={1}
+  >
+    1
+  </a>
+  <a
+    aria-current={false}
+    aria-disabled={false}
+    className="item"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    tabIndex={0}
+    type="pageItem"
+    value={2}
+  >
+    2
+  </a>
+  <a
+    aria-current={true}
+    aria-disabled={false}
+    className="active item"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    tabIndex={0}
+    type="pageItem"
+    value={3}
+  >
+    3
+  </a>
+  <a
+    aria-current={false}
+    aria-disabled={false}
+    className="item"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    tabIndex={0}
+    type="pageItem"
+    value={4}
+  >
+    4
+  </a>
+  <a
+    aria-current={false}
+    aria-disabled={false}
+    className="item"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    tabIndex={0}
+    type="pageItem"
+    value={5}
+  >
+    5
+  </a>
+  <a
+    aria-current={false}
+    aria-disabled={false}
+    className="item"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    tabIndex={0}
+    type="pageItem"
+    value={6}
+  >
+    6
+  </a>
+  <a
+    aria-current={false}
+    aria-disabled={false}
+    className="item"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    tabIndex={0}
+    type="pageItem"
+    value={7}
+  >
+    7
+  </a>
+  <a
+    aria-current={false}
+    aria-disabled={false}
+    className="item"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    tabIndex={0}
+    type="pageItem"
+    value={8}
+  >
+    8
+  </a>
+  <a
+    aria-current={false}
+    aria-disabled={false}
+    className="item"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    tabIndex={0}
+    type="pageItem"
+    value={9}
+  >
+    9
+  </a>
+  <a
+    aria-current={false}
+    aria-disabled={false}
+    className="item"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    tabIndex={0}
+    type="pageItem"
+    value={10}
+  >
+    10
+  </a>
+  <a
+    aria-current={false}
+    aria-disabled={false}
+    className="item"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    tabIndex={0}
+    type="pageItem"
+    value={11}
+  >
+    11
+  </a>
+  <a
+    aria-current={false}
+    aria-disabled={false}
+    className="item"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    tabIndex={0}
+    type="nextItem"
+    value={4}
+  >
+    Next
+  </a>
+</div>
+`;
+
+exports[`Storyshots Rating Basic Rating 1`] = `
+<div
+  className="ui star small rating"
+  onMouseLeave={[Function]}
+  role="radiogroup"
+  tabIndex={-1}
+>
+  <i
+    aria-checked={false}
+    aria-posinset={1}
+    aria-setsize={5}
+    className="active icon"
+    onClick={[Function]}
+    onKeyUp={[Function]}
+    onMouseEnter={[Function]}
+    role="radio"
+    tabIndex={0}
+  />
+  <i
+    aria-checked={false}
+    aria-posinset={2}
+    aria-setsize={5}
+    className="active icon"
+    onClick={[Function]}
+    onKeyUp={[Function]}
+    onMouseEnter={[Function]}
+    role="radio"
+    tabIndex={0}
+  />
+  <i
+    aria-checked={true}
+    aria-posinset={3}
+    aria-setsize={5}
+    className="active icon"
+    onClick={[Function]}
+    onKeyUp={[Function]}
+    onMouseEnter={[Function]}
+    role="radio"
+    tabIndex={0}
+  />
+  <i
+    aria-checked={false}
+    aria-posinset={4}
+    aria-setsize={5}
+    className="icon"
+    onClick={[Function]}
+    onKeyUp={[Function]}
+    onMouseEnter={[Function]}
+    role="radio"
+    tabIndex={0}
+  />
+  <i
+    aria-checked={false}
+    aria-posinset={5}
+    aria-setsize={5}
+    className="icon"
+    onClick={[Function]}
+    onKeyUp={[Function]}
+    onMouseEnter={[Function]}
+    role="radio"
+    tabIndex={0}
+  />
+</div>
+`;
+
+exports[`Storyshots Rating Heart Rating 1`] = `
+<div
+  className="ui heart small disabled rating"
+  onMouseLeave={[Function]}
+  role="radiogroup"
+  tabIndex={0}
+>
+  <i
+    aria-checked={false}
+    aria-posinset={1}
+    aria-setsize={5}
+    className="active icon"
+    onClick={[Function]}
+    onKeyUp={[Function]}
+    onMouseEnter={[Function]}
+    role="radio"
+    tabIndex={-1}
+  />
+  <i
+    aria-checked={false}
+    aria-posinset={2}
+    aria-setsize={5}
+    className="active icon"
+    onClick={[Function]}
+    onKeyUp={[Function]}
+    onMouseEnter={[Function]}
+    role="radio"
+    tabIndex={-1}
+  />
+  <i
+    aria-checked={true}
+    aria-posinset={3}
+    aria-setsize={5}
+    className="active icon"
+    onClick={[Function]}
+    onKeyUp={[Function]}
+    onMouseEnter={[Function]}
+    role="radio"
+    tabIndex={-1}
+  />
+  <i
+    aria-checked={false}
+    aria-posinset={4}
+    aria-setsize={5}
+    className="icon"
+    onClick={[Function]}
+    onKeyUp={[Function]}
+    onMouseEnter={[Function]}
+    role="radio"
+    tabIndex={-1}
+  />
+  <i
+    aria-checked={false}
+    aria-posinset={5}
+    aria-setsize={5}
+    className="icon"
+    onClick={[Function]}
+    onKeyUp={[Function]}
+    onMouseEnter={[Function]}
+    role="radio"
+    tabIndex={-1}
+  />
+</div>
+`;
+
+exports[`Storyshots Rating Star Rating 1`] = `
+<div
+  className="ui star small rating"
+  onMouseLeave={[Function]}
+  role="radiogroup"
+  tabIndex={-1}
+>
+  <i
+    aria-checked={false}
+    aria-posinset={1}
+    aria-setsize={5}
+    className="active icon"
+    onClick={[Function]}
+    onKeyUp={[Function]}
+    onMouseEnter={[Function]}
+    role="radio"
+    tabIndex={0}
+  />
+  <i
+    aria-checked={false}
+    aria-posinset={2}
+    aria-setsize={5}
+    className="active icon"
+    onClick={[Function]}
+    onKeyUp={[Function]}
+    onMouseEnter={[Function]}
+    role="radio"
+    tabIndex={0}
+  />
+  <i
+    aria-checked={true}
+    aria-posinset={3}
+    aria-setsize={5}
+    className="active icon"
+    onClick={[Function]}
+    onKeyUp={[Function]}
+    onMouseEnter={[Function]}
+    role="radio"
+    tabIndex={0}
+  />
+  <i
+    aria-checked={false}
+    aria-posinset={4}
+    aria-setsize={5}
+    className="icon"
+    onClick={[Function]}
+    onKeyUp={[Function]}
+    onMouseEnter={[Function]}
+    role="radio"
+    tabIndex={0}
+  />
+  <i
+    aria-checked={false}
+    aria-posinset={5}
+    aria-setsize={5}
+    className="icon"
+    onClick={[Function]}
+    onKeyUp={[Function]}
+    onMouseEnter={[Function]}
+    role="radio"
+    tabIndex={0}
+  />
+</div>
+`;
+
+exports[`Storyshots Skeleton Basic Skeletons 1`] = `
+<div
+  style={
+    Object {
+      "padding": "30px",
+    }
+  }
+>
+  <div
+    className="ui placeholder"
+  >
+    <div
+      className="image header"
+    >
+      <div
+        className="line"
+      />
+      <div
+        className="line"
+      />
+    </div>
+    <div
+      className="paragraph"
+    >
+      <div
+        className="line"
+      />
+      <div
+        className="line"
+      />
+      <div
+        className="line"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Skeleton Paragraph Skeletons 1`] = `
+<div
+  style={
+    Object {
+      "padding": "30px",
+    }
+  }
+>
+  <div
+    className="ui placeholder"
+  >
+    <div
+      className="paragraph"
+    >
+      <div
+        className="line"
+      />
+      <div
+        className="line"
+      />
+      <div
+        className="line"
+      />
+    </div>
+    <div
+      className="paragraph"
+    >
+      <div
+        className="line"
+      />
+      <div
+        className="line"
+      />
+      <div
+        className="line"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Welcome to Storybook 1`] = `
+<article
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "color": "#000",
+      "fontFamily": "\\"Helvetica Neue\\", Helvetica, \\"Segoe UI\\", Arial, freesans, sans-serif",
+      "lineHeight": 1.4,
+      "padding": 15,
+    }
+  }
+>
+  <h1>
+    Welcome to storybook
+  </h1>
+  <p>
+    This is a UI component dev environment for your app.
+  </p>
+  <p>
+    We've added some basic stories inside the 
+    <code
+      style={
+        Object {
+          "backgroundColor": "#f3f2f2",
+          "border": "1px solid #eae9e9",
+          "borderRadius": 4,
+          "color": "#3a3a3a",
+          "fontSize": 15,
+          "fontWeight": 600,
+          "padding": "2px 5px",
+        }
+      }
+    >
+      src/stories
+    </code>
+     directory.
+    <br />
+    A story is a single state of one or more UI components. You can have as many stories as you want.
+    <br />
+    (Basically a story is like a visual test case.)
+  </p>
+  <p>
+    See these sample 
+    <button
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "borderBottom": "1px solid #1474f3",
+          "borderLeft": "none",
+          "borderRight": "none",
+          "borderTop": "none",
+          "color": "#1474f3",
+          "cursor": "pointer",
+          "font": "inherit",
+          "padding": 0,
+          "paddingBottom": 2,
+          "textDecoration": "none",
+        }
+      }
+      type="button"
+    >
+      stories
+    </button>
+     for a component called 
+    <code
+      style={
+        Object {
+          "backgroundColor": "#f3f2f2",
+          "border": "1px solid #eae9e9",
+          "borderRadius": 4,
+          "color": "#3a3a3a",
+          "fontSize": 15,
+          "fontWeight": 600,
+          "padding": "2px 5px",
+        }
+      }
+    >
+      Button
+    </code>
+    .
+  </p>
+  <p>
+    Just like that, you can add your own components as stories.
+    <br />
+    You can also edit those components and see changes right away.
+    <br />
+    (Try editing the 
+    <code
+      style={
+        Object {
+          "backgroundColor": "#f3f2f2",
+          "border": "1px solid #eae9e9",
+          "borderRadius": 4,
+          "color": "#3a3a3a",
+          "fontSize": 15,
+          "fontWeight": 600,
+          "padding": "2px 5px",
+        }
+      }
+    >
+      Button
+    </code>
+     stories located at 
+    <code
+      style={
+        Object {
+          "backgroundColor": "#f3f2f2",
+          "border": "1px solid #eae9e9",
+          "borderRadius": 4,
+          "color": "#3a3a3a",
+          "fontSize": 15,
+          "fontWeight": 600,
+          "padding": "2px 5px",
+        }
+      }
+    >
+      src/stories/1-Button.stories.js
+    </code>
+    .)
+  </p>
+  <p>
+    Usually we create stories with smaller UI components in the app.
+    <br />
+    Have a look at the 
+    <a
+      href="https://storybook.js.org/basics/writing-stories"
+      rel="noopener noreferrer"
+      style={
+        Object {
+          "borderBottom": "1px solid #1474f3",
+          "color": "#1474f3",
+          "paddingBottom": 2,
+          "textDecoration": "none",
+        }
+      }
+      target="_blank"
+    >
+      Writing Stories
+    </a>
+     section in our documentation.
+  </p>
+  <p
+    style={
+      Object {
+        "opacity": 0.5,
+      }
+    }
+  >
+    <b>
+      NOTE:
+    </b>
+    <br />
+    Have a look at the 
+    <code
+      style={
+        Object {
+          "backgroundColor": "#f3f2f2",
+          "border": "1px solid #eae9e9",
+          "borderRadius": 4,
+          "color": "#3a3a3a",
+          "fontSize": 15,
+          "fontWeight": 600,
+          "padding": "2px 5px",
+        }
+      }
+    >
+      .storybook/webpack.config.js
+    </code>
+     to add webpack loaders and plugins you are using in this project.
+  </p>
+</article>
+`;

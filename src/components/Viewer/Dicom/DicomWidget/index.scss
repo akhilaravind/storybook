@@ -1,0 +1,79 @@
+.dicom_viewer {
+    .sidepane-normal {
+        position: absolute;
+        z-index: 80;
+        background-color: #00000087;
+        padding: 5px;
+    }
+
+    .sidepane-enter {
+        opacity: 0;
+        margin-left: -30px;
+        position: absolute;
+        transition: all .2s;
+    }
+
+    .sidepane-enter-active {
+        opacity: 1;
+        margin-left: 0px;
+    }
+
+    .sidepane-exit {
+        opacity: 1;
+        margin-left: 0px;
+        position: absolute;
+    }
+
+    .sidepane-exit-active {
+        opacity: 0;
+        margin-left: -30px;
+        transition: all .2s;
+    }
+
+    .seek-bar {
+        width: 100%;
+        height: 7px;
+        opacity: 1;
+        cursor: default;
+        bottom: 0px;
+        position: absolute;
+
+        &:hover {
+            cursor: pointer;
+            opacity: .5;
+            border: solid .1px #8ade98d1;
+        }
+    }
+
+    .msg-frame-jump-to {
+        position: absolute;
+        bottom: 10px;
+        right: 20px;
+        opacity: .7;
+        font-size: .9em;
+        font-style: italic;
+    }
+
+    a.iconHelp {
+        color: teal;
+        font-size: 1.3em;
+        position: absolute;
+        z-index: 1;
+        right: 48px;
+        top: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .dicom_viewer {
+        .sidepane-normal {
+            background-color: #1b2a2ffa;
+            height: 350px;
+            overflow-y: scroll;
+        }
+
+        a.iconHelp {
+            top: 11px;
+        }
+    }
+}

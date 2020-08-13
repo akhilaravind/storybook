@@ -1,0 +1,25 @@
+.page-nav-container {
+	padding: 0px !important;
+    z-index: 9999;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+	top: 15px;
+
+	.header {
+		color: #444;
+		font-size: 15px !important;
+		padding: 5px 8px;
+	}
+
+	i.icon {
+		color: #444;
+		font-size: 15px !important;
+	}
+
+	img {
+		width: 50px;
+		padding-top: 5px;
+		padding-left: 15px;
+	}
+}

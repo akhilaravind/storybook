@@ -1,0 +1,14 @@
+.card {
+    transition: 0.3s;
+    width: 350px;
+    box-shadow: none;
+    margin: 30px auto;
+
+    &:hover {
+        box-shadow: none;
+    }
+
+    img {
+        width: 100%;
+    }
+}

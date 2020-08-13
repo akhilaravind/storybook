@@ -1,0 +1,81 @@
+.pwa-nav {
+    .navbar {
+        z-index: 1030;
+        height: 55px;
+        padding-top: 17px;
+        box-shadow: 0 1px 15px rgba(0, 0, 0, .04), 0 1px 6px rgba(0, 0, 0, .04);
+        -webkit-transition: 0.25s ease-in;
+        -o-transition: 0.25s ease-in;
+        transition: 0.25s ease-in;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+
+        .menu-col-left {
+            padding-left: 25px !important;
+
+            i.icon {
+                font-size: 15px;
+                padding: 0px 10px;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+
+            span {
+                padding-left: 10px;
+            }
+
+            img {
+                width: 55px;
+            }
+        }
+
+        .menu-col-right {
+            padding-right: 25px !important;
+
+            .ui.dropdown {
+                .menu {
+                    left: -40px;
+                    top: 25px;
+                    border: none;
+                }
+            }
+        }
+    }
+
+    .sidenav-enter {
+        opacity: 0;
+    }
+
+    .sidenav-enter-active {
+        opacity: 1;
+        transition: opacity 500ms ease-in;
+    }
+
+    .sidenav-exit {
+        opacity: 1;
+    }
+
+    .sidenav-exit-active {
+        opacity: 0;
+        transition: opacity 500ms ease-in;
+    }
+}
+
+.pwa-container {
+    height: calc(100vh - 47px);
+    padding: 75px 10px !important;
+
+    @media only screen and (max-width: 767px) {
+        &.pwa-container {
+            padding: 55px 10px !important;
+        }
+
+        .container {
+            padding: 10px 0px;
+        }
+    }
+}

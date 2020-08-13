@@ -1,0 +1,21 @@
+.radio-element-label,
+.radio-element-option-label {
+    border: none !important;
+    padding-left: 0px !important;
+}
+
+.radio-element-option-label {
+    position: relative;
+    top: -3px;
+    font-weight: 500 !important;
+}
+
+.radio-element {
+    margin: 5px 0px;
+}
+
+input[type=radio] {
+    cursor: pointer;
+    width: 17px;
+    height: 17px;
+}

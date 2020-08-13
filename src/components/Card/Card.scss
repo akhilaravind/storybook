@@ -1,0 +1,22 @@
+.custom-card {
+	&.card {
+		box-shadow: none;
+		text-align: center;
+		min-height: 150px !important;
+		padding-top: 50px !important;
+
+		.icon {
+			margin: 0px auto;
+			font-size: 35px;
+		}
+
+		.content {
+			border: none !important;
+			padding: 10px 0px;
+
+			.header {
+				font-size: 12px !important;
+			}
+		}
+	}
+}

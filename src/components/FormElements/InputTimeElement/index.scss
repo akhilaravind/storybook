@@ -1,0 +1,35 @@
+.react-datepicker__time-list {
+	display: block;
+}
+
+.input-time-element-label.ui.basic.label {
+    width: 100%;
+    border: 0;
+    position: relative;
+    top: 30px;
+    left: -10px;
+    z-index: 1;
+}
+
+.input-time-element-label.isFocus.ui.basic.label {
+    top: 0;
+    left: -10px;
+    font-size: 80%;
+    font-weight: 400;
+    animation: labelOnMove 0.3s;
+    color: #1976d2;
+}
+
+@keyframes labelOnMove {
+    0% {
+        top: 35px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+.input-time-element.isFocus {
+    border-bottom: 1px solid #1976d2 !important;
+}

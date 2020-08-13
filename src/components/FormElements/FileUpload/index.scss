@@ -1,0 +1,92 @@
+.dropzone-container {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.dropzone {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px;
+    border-width: 2px;
+    border-radius: 2px;
+    border-color: #eeeeee;
+    border-style: dashed;
+    background-color: #fafafa;
+    color: #bdbdbd;
+    outline: none;
+    transition: border .24s ease-in-out;
+}
+
+.dropzone img {
+	width: 75px;
+    margin-bottom: 15px;
+}
+
+.dropzone p {
+	color: brown;
+}
+
+input[type="file"i] {
+    -webkit-appearance: initial;
+    background-color: initial;
+    cursor: default;
+    align-items: baseline;
+    color: inherit;
+    text-align: start !important;
+    padding: initial;
+    border: initial;
+}
+
+.images-container {
+    display: flex;
+    flex-flow: row wrap;
+	margin-top: 16px;
+	border: 1px solid #eee;
+}
+
+.images-container .image-container {
+    display: inline-flex;
+    border-radius: 2px;
+    border: 1px solid rgb(234, 234, 234);
+    margin-bottom: 8px;
+    margin-right: 8px;
+    width: 150px;
+    height: 150px;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+.images-container .image-container .inner {
+    display: flex;
+    min-width: 0px;
+    overflow: hidden;
+}
+
+.images-container .image-container .inner i {
+	position: absolute;
+}
+
+.images-container .image-container .inner i.preview-icon {
+	margin-left: 35px;
+}
+
+.images-container .image-container .inner i:hover,
+.images-container .image-container .inner img:hover {
+	cursor: pointer;
+}
+
+.images-container .image-container .inner img {
+    display: block;
+    width: 150px !important; 
+	height: 150px !important;
+	object-fit: contain;
+}
+
+.preview-image {
+	width: 100%;
+    height: calc(100vh - 350px);
+    object-fit: contain;
+}

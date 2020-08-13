@@ -1,0 +1,23 @@
+.pwa-footer {
+    position: fixed !important;
+    left: 0px !important;
+    right: 0px !important;
+    // bottom: 22px;
+
+    .buttons {
+        .button {
+            font-weight: 400 !important;
+            font-size: 12px !important;
+
+            a,
+            a:hover {
+                color: #fff;
+            }
+
+            .icon {
+                display: flex;
+                margin: 3px auto !important;
+            }
+        }
+    }
+}
