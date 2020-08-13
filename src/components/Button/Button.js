@@ -59,7 +59,7 @@ CustomButton.propTypes = {
 
 CustomButton.defaultProps = {
 	type: 'icon',
-	icon: 'globe',
+	icon: 'home',
 	size: '',
 	label: '',
 	color: '',
