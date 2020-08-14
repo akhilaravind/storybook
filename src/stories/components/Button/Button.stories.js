@@ -25,7 +25,7 @@ export const BasicButton = () => {
 export const ButtonWithIcon = () => {
     const type = text('Type', 'label');
     const label = text('Label', 'Button');
-    const icon = text('Icon', 'love');
+    const icon = text('Icon', 'heart');
     const size = select('Size', SizeOptions, defaultValue);
     const color = text('Color', 'purple');
 
